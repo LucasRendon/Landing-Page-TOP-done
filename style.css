@@ -1,0 +1,215 @@
+body {
+  font-family: Robot, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-area {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.text-logo {
+    /*CraftingHN*/
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: 0;
+    margin-left: 17%;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+    margin-right: 17%;
+    text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  background: #1f2937;
+  color: white;
+  gap: 10px;
+}
+
+.awesome-area {
+    display: flex;
+    background: #1f2937;
+    gap: 30px;
+    padding: 9% 0;
+}
+
+.placeholder {
+    height: 40%;
+    margin-right: 17%;
+    border: none;
+    border-radius: none;
+}
+
+.awesome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 17%;
+    background: #1f2937;
+    color: white;
+}
+
+.title {
+    /* This website is awesome */
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    background: #1f2937;
+}
+
+.title-text {
+    /*Bienvenido a CraftingHN*/
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 5px;
+}
+
+.button,
+.top {
+    background-color: royalblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.text-random {
+    /* Algunos de nuestros productos */
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  gap:20px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  display: flex;  
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  margin-top: 25px;
+  width: 225px;
+}
+
+.card-text {
+  padding: 16px;
+  font-size: 18px;
+}
+
+img {
+    border: 1px solid blueviolet;
+    border-radius: 4px; 
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.quote-container {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin-left: 15%;
+    margin-right: 13%;
+    text-align: left;
+}
+
+.quote-author {
+    font-size: 24px;
+    text-align: right;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+
+.signup-area {
+    display: flex;
+    padding: 7% 17%;
+    color: white;
+}
+
+.signup-container {
+    display: flex;
+    background: #3882F6;
+    padding: 4% 10%;
+    flex: 1;
+    justify-content: space-between;
+    border-radius: 12px;
+    gap: 5px;
+}
+
+.signup-text-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.signup-text1 {
+    font-size: 24px;
+}
+
+.signup-text2 {
+    font-size: 18px;
+}
+
+.button.bot {
+    border: solid white;
+    height: 22px;
+    align-self: center;
+}
+
+.footer {
+    /* Copyright */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1f2937;
+  color: white;
+}
